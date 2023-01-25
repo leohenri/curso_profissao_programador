@@ -14,6 +14,6 @@ Projetos em andamento, conforme evolução e aprendizado no Curso Profissão Pro
 
 ## Técnicas e tecnologias utilizadas
 
-:white_check_mark: ``HTML 5``
-:white_check_mark: ``CSS``
-:white_check_mark: ``Javascript``
+### :white_check_mark: ``HTML 5``
+### :white_check_mark: ``CSS``
+### :white_check_mark: ``Javascript``
