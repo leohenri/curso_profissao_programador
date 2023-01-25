@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC #profissaoprogramador</title>
+
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    
+    <div class="imc-container">
+
+        <div class="form-container">
+
+            <h2>Calcular IMC</h2>
+            <h6>
+                Desenvolvido por Leandro Henrique
+                <br>@leandrohenrique4685 
+                #profissaoprogramador
+            </h6>
+        
+            <div class="form-input">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+
+            <div class="form-input">
+                <label for="peso">Peso:</label>
+                <input type="number" name="peso" id="peso" min="10" max="250" required>
+            </div>
+
+            <div class="form-input">
+                <label for="altura">Altura:</label>
+                <input type="number" name="altura" id="altura" min="0.4" max="2.5" required>
+            </div>
+
+            <div class="buttons">
+                <button id="btn-limpar">Limpar</button>
+                <button id="btn-calcular">Calcular</button>
+
+            </div>
+
+        
+            <div id="resultado"></div>
+
+            <div id="imagem-container">
+                <img src="" alt="" id="imc-imagem">
+            </div>
+           
+            
+
+            <div id="resultado-imc"></div>
+
+        </div>
+
+
+    </div>
+
+    
+
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

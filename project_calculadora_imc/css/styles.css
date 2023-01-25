@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.imc-container{
+    color: rgb(228, 195, 84);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-image: url('../img/bg.jpeg');
+    /* Parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 600px;
+    padding-left: 40px;
+    border-radius: 8px;
+}
+
+
+h2{
+    display: flex;
+    justify-content: center;
+    color: chocolate;
+}
+h6{
+    text-align: center;
+    color: chocolate;
+    margin-bottom: 20px;
+}
+ 
+label{
+    display: block;
+    font-weight: bold;
+    color: chocolate;
+    font-size: 20px;
+}
+
+input{
+    display: block;
+    width: 330px;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    
+}
+
+.buttons{
+    display: inline;
+    justify-content: center;
+}
+
+#btn-calcular, #btn-limpar{
+    width: 49%;
+    border: none;
+    background-color: #FFF;
+    color: #333;
+    border-radius: 8px;
+    padding: 8px 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+
+#resultado,
+#resultado-imc{
+    text-align: center;
+    color: chocolate;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+#imc-imagem{
+    height: 200px;
+    width: 94px;
+    display: none;
+}
+
+#imagem-container{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container{
+    padding-left: 20px;
+}
+
+.footer-content{
+    padding-left: 20px;
+    color: chocolate;
+    font-size: 18px;
+    font-weight: bold;
+}
