@@ -1,11 +1,10 @@
 <h1 align="center"> Curso Profissão Programador </h1>
 
-# Resumo do projeto
 Projetos em andamento, conforme evolução e aprendizado no Curso Profissão Programador.
 
-# Projetos
+## Projetos
 
-:construction: Projetos em construção :construction:
+:construction: Projetos em construção :construction_worker:
 
 - `Projeto Portifolio`: apresenta os projetos já realizados por mim, além de descrever um pouco dos meus conhecimentos e habilidades com a programação front e back end.
 
@@ -13,8 +12,8 @@ Projetos em andamento, conforme evolução e aprendizado no Curso Profissão Pro
 
 - `Projeto Calculadora IMC`: calcula o Indice de Massa Corporal - IMC utilizando a fórmula peso divido por altura ao quadrado. Além de mostrar o valor do IMC é mostrada uma imagem conforme o resultado deste índice.
 
-## ✔️ Técnicas e tecnologias utilizadas
+## Técnicas e tecnologias utilizadas
 
-- ``HTML 5``
-- ``CSS``
-- ``Javascript``
+:white_check_mark: ``HTML 5``
+:white_check_mark: ``CSS``
+:white_check_mark: ``Javascript``
